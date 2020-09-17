@@ -1,9 +1,11 @@
 import React from 'react';
 
+import WordSearch from './components/WordSearch';
+
 function App() {
   return (
-    <div className="App">
-
+    <div>
+      <WordSearch />
     </div>
   );
 }
